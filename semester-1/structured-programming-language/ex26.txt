@@ -1,0 +1,20 @@
+The Ultimate Tracing Boss: Without running the code, what is the exact
+output? Pay close attention to loop conditions and variable updates.
+
+int m = 10, n = 5, p = 0;
+if (m++ > 10) {
+  p = ++n;
+} else {
+  p = n--;
+}
+while (p > 2) {
+  if (p % 2 == 0) {
+    m += p;
+  } else {
+    m -= p;
+  }
+  p--;
+}
+printf("m=%d, n=%d, p=%d", m, n, p);
+
+Output: m=7, n=4, p=2
