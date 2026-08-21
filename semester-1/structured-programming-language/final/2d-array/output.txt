@@ -1,7 +1,2 @@
-Each Product Total Sales Down Below:
-Product 1 got total sales of = 130.00
-Product 2 got total sales of = 135.00
-Product 3 got total sales of = 145.00
-Product 4 got total sales of = 80.00
-Day 4 got the total highest sales of = 80.00
-Product 3 got the total highest weekly sales of = 145.00
+20 50 
+35 80 

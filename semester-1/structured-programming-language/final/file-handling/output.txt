@@ -1,3 +1,0 @@
-Highest Score = 71
-Lowest Score = 10
-Average Score = 26.00

@@ -2,16 +2,26 @@
 
 int main()
 {
-  int n;
-  scanf("%d", &n);
+  int n, m;
+  scanf("%d%d", &n, &m);
 
-  int a[n][n], sum = 0;
+  int a[n][m], b[n][m], c[n][m];
 
   for (int i = 0; i < n; i++)
     for (int j = 0; j < n; j++)
-      scanf("%d", &a[i][j]), sum += a[i][j];
+      scanf("%d", &a[i][j]);
 
-  printf("Sum = %d", sum);
+  for (int i = 0; i < n; i++)
+    for (int j = 0; j < n; j++)
+      scanf("%d", &b[i][j]), c[i][j] = a[i][j] + b[i][j];
+
+  for (int i = 0; i < n; i++)
+  {
+    for (int j = 0; j < n; j++)
+      printf("%d ", c[i][j]);
+
+    printf("\n");
+  }
 
   return 0;
 }
