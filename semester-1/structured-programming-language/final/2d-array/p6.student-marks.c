@@ -32,7 +32,7 @@ int main()
   int student = 0;
   float highest_marks = total_marks[0];
 
-  for (int i = 1; i < n; i++)
+  for (int i = 1; i < m; i++)
     if (total_marks[i] > highest_marks)
       highest_marks = total_marks[i], student = i;
 

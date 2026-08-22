@@ -1,0 +1,3 @@
+Total products = 10
+The avg price = 960
+The highest price = 5000
