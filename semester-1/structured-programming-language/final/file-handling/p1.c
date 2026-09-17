@@ -2,10 +2,7 @@
 
 int main()
 {
-  FILE *fp;
-
-  fp = fopen("numbers.txt", "r");
-
+  FILE *fp = fopen("numbers.txt", "r");
   int sum = 0;
 
   for (int i = 0; i < 10; i++)
