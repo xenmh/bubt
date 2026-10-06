@@ -1,0 +1,17 @@
+
+Enter your name: Mehedi
+Enter your student ID: 3
+Enter your marks of English: 72
+Enter your marks of Math: 67
+Enter your marks of Physics: 100
+
+= = = = = OUTPUT = = = = =
+
+Student Name: Mehedi, and ID: 3
+Total Marks: 239, and Average: 79.67
+Your English grade is: A-
+Your Math grade is: B
+Your Physics grade is: A+
+
+
+
